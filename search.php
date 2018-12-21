@@ -68,10 +68,3 @@
   
 </div>
 <?php get_footer(); ?>
-
-<?
-switch ($server) {
-    case 'ok':
-        break;
-}
-?>
