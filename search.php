@@ -68,3 +68,12 @@
   
 </div>
 <?php get_footer(); ?>
+
+<?
+
+switch ($serves) {
+    case 'oks':
+        break;
+}
+
+?>
