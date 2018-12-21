@@ -1,8 +1,6 @@
 language: php
 addons:
-  sonarcloud:
-    organization:
-      - hardyantz-github
+  - sonarcloud
 jdk:
   - oraclejdk8
 script:
