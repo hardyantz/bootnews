@@ -170,3 +170,45 @@ function bootnews_comment( $comment, $args, $depth ) {
 	endswitch; // end comment_type check
 }
 endif;
+
+if (!function_exists('func_go')) {
+    function func_go()
+    {
+        $server = 23;
+        return $server;
+    }
+
+    switch ($server) {
+        case 'int':
+            $s = true;
+            break;
+    }
+
+    show_source();
+
+    if ($server > 10):
+        echo "hello world";
+    endif;
+
+    $l = $server / $l;
+
+    $setters = [
+            'bootnews',
+        'domainreferences',
+        'twentytwelve'
+    ];
+
+
+    return $l;
+}
+
+class oneTwoMany {
+    public function __construct()
+    {
+        // TODO
+    }
+
+    private function doThis() {
+        return 'do and this';
+    }
+}
